@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- below line is imp for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Webstore is a shopping website that will make you look fabulla. It's tailored to your personal style and look."
+    />
+
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Crimson+Pro:wght@200&family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Inter:wght@400;500;700&family=Nunito:wght@200&family=Rubik:ital,wght@0,400;0,500;0,600;1,700&family=Sacramento&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Web Store &mdash; Ease your shopping!</title>
+
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Minify CSS -->
+    <link rel="stylesheet" href="css/minify.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="select.html">
+        <h1 class="logo-txt">
+          Web St
+          <img
+            class="logo logo-img"
+            src="img/android-chrome-512x512.png"
+            alt="logo"
+          />re
+        </h1>
+      </a>
+      <form class="cta-form" action="">
+        <input
+          id="full-name"
+          type="text"
+          placeholder=" &#9794; Search"
+          required
+        />
+      </form>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#how-it-works">Shop now</a>
+          </li>
+          <li><a class="main-nav-link" href="#meals">New Look</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Play&Win</a></li>
+          <li>
+            <a class="main-nav-link nav-last" href="#"
+              ><ion-icon name="cart-outline"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-last" href="#cta">Sign In now</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="sec-hero">
+        <div class="hero">
+          <div class="hero-img-box">
+            <img src="img/hero.png" alt="hero-img" class="hero-img" />
+          </div>
+          <div class="hero-txt-box">
+            <h1 class="heading">
+              Wear what makes you happy, no matter what anyone else says
+            </h1>
+
+            <p class="txt">
+              Dressing well doesn't have to be hard - find what you love at our
+              store. Tailored to your personal style, feel confident and
+              comfortable.
+            </p>
+            <a href="select.html" class="btn btn-full margin-right"
+              >Be fabulla</a
+            >
+            <a href="#how-it-works" class="btn btn-out">Learn More &darr;</a>
+            <div class="faces-txt">
+              <div class="faces">
+                <img src="img/customers/customer-1.jpg" alt="customer-1" />
+                <img src="img/customers/customer-2.jpg" alt="customer-2" />
+                <img src="img/customers/customer-3.jpg" alt="customer-3" />
+                <img src="img/customers/customer-4.jpg" alt="customer-4" />
+                <img src="img/customers/customer-5.jpg" alt="customer-5" />
+                <img src="img/customers/customer-6.jpg" alt="customer-6" />
+              </div>
+              <p class="descrpt"><span>25,000+ </span>fashion fit !</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-feature">
+        <div class="container">
+          <h2 class="head-feature">As featured in</h2>
+          <div class="logos">
+            <img class="logos-img" src="img/logos/techcrunch.png" alt="logo" />
+            <img
+              class="logos-img"
+              src="img/logos/business-insider.png"
+              alt="logo"
+            /><img
+              class="logos-img"
+              src="img/logos/the-new-york-times.png"
+              alt="logo"
+            /><img class="logos-img" src="img/logos/forbes.png" alt="logo" />
+            <img class="logos-img" src="img/logos/usa-today.png" alt="logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-how" id="how-it-works">
+        <div class="container">
+          <span class="sub-head">Shop Now</span>
+          <h2 class="sec-head">A New Revolution, A New Perspective</h2>
+        </div>
+
+        <div class="container">
+          <!-- step 01 -->
+
+          <!-- **************** / Step text /******** -->
+
+          <div class="step-txt-box">
+            <h3 class="third-head">
+              We provide clothes more than just stitched fabric
+            </h3>
+            <p class="step-description">
+              Never again waste time thinking about what to waer! WebStore will
+              provide differnt styles for you. It makes sure you get all the
+              styling in affordable price.
+            </p>
+          </div>
+
+          <!-- **************** / Step Carousel /******** -->
+
+          <div id="container1">
+            <div id="slider-container">
+              <span onclick="slideRight()" class="btn-slider"></span>
+              <div id="slider">
+                <div class="card slide">
+                  <div class="image-box">
+                    <img src="img/app/1a.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide">
+                  <div class="image-box">
+                    <img src="img/app/1b.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide">
+                  <div class="image-box">
+                    <img src="img/app/1c.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide">
+                  <div class="image-box">
+                    <img src="img/app/1d.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide">
+                  <div class="image-box">
+                    <img src="img/select/her/1z.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide">
+                  <div class="image-box">
+                    <img src="img/app/1e.png" alt="dress" />
+                  </div>
+                </div>
+              </div>
+              <span onclick="slideLeft()" class="btn-slider"></span>
+            </div>
+          </div>
+
+          <!-- step 02 -->
+          <!-- **************** / Step text /******** -->
+
+          <div class="step-txt-box">
+            <h3 class="third-head">
+              You can’t buy happiness but you can buy clothes
+            </h3>
+            <p class="step-description">
+              It’s hard to be nice if you don’t feel comfortable. We are here to
+              make you feel comfortable and bring smiles back.
+            </p>
+          </div>
+
+          <!-- **************** / Step Carousel /******** -->
+
+          <div id="container12">
+            <div id="slider-container2">
+              <span onclick="slidesRight()" class="btn-slider2"></span>
+              <div id="slider2">
+                <div class="card slide2">
+                  <div class="image-box">
+                    <img src="img/app/1f.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide2">
+                  <div class="image-box">
+                    <img src="img/app/1g.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide2">
+                  <div class="image-box">
+                    <img src="img/app/1h.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide2">
+                  <div class="image-box">
+                    <img src="img/app/1i.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide2">
+                  <div class="image-box">
+                    <img src="img/select/her/1y.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide2">
+                  <div class="image-box">
+                    <img src="img/app/1j.png" alt="dress" />
+                  </div>
+                </div>
+              </div>
+              <span onclick="slidesLeft()" class="btn-slider2"></span>
+            </div>
+          </div>
+
+          <!-- step 03 -->
+          <!-- **************** / Step text /******** -->
+          <div class="step-txt-box">
+            <h3 class="third-head">Get your look at convenient time</h3>
+            <p class="step-description">
+              We understand that life gets busy, so we want to make it easy for
+              you to shop for your favorite products on your own time.
+            </p>
+          </div>
+          <!-- **************** / Step Carousel /******** -->
+
+          <div id="container13">
+            <div id="slider-container3">
+              <span onclick="slidessRight()" class="btn-slider3"></span>
+              <div id="slider3">
+                <div class="card slide3">
+                  <div class="image-box">
+                    <img src="img/app/1k.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide3">
+                  <div class="image-box">
+                    <img src="img/app/1l.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide3">
+                  <div class="image-box">
+                    <img src="img/app/1m.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide3">
+                  <div class="image-box">
+                    <img src="img/app/1n.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide3">
+                  <div class="image-box">
+                    <img src="img/select/her/1x.png" alt="dress" />
+                  </div>
+                </div>
+
+                <div class="card slide3">
+                  <div class="image-box">
+                    <img src="img/app/1o.png" alt="dress" />
+                  </div>
+                </div>
+              </div>
+              <span onclick="slidessLeft()" class="btn-slider3"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-meals" id="meals">
+        <div class="container center-txt">
+          <span class="sub-head">New Look</span>
+          <h2 class="sec-head">We’ve got the right stuff for you!</h2>
+        </div>
+
+        <div class="container grid-3 grid margin-bottom">
+          <div class="meal">
+            <img class="meal-img" src="img/meals/III.jpg" alt="dress-img" />
+            <div class="meal-content">
+              <p class="meal-title">For Him</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <!-- this icon is created bu the script below -->
+                  <ion-icon class="meal-icon" name="heart-outline"></ion-icon
+                  ><span><strong> 1000+ </strong> styles</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="checkmark-done-outline"
+                  ></ion-icon
+                  ><span>Verified</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong> 4.9 </strong>rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img class="meal-img" src="img/meals/II.jpg" alt="dress-img" />
+            <div class="meal-content">
+              <p class="meal-title">For Her</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <!-- this icon is created bu the script below -->
+                  <ion-icon class="meal-icon" name="heart-outline"></ion-icon
+                  ><span><strong> 1500+ </strong> styles</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="checkmark-done-outline"
+                  ></ion-icon
+                  ><span>Verified</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong> 4.9 </strong>rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="meal">
+            <img class="meal-img" src="img/meals/I.jpg" alt="dress-img" />
+            <div class="meal-content">
+              <p class="meal-title">For Kids</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <!-- this icon is created bu the script below -->
+                  <ion-icon class="meal-icon" name="heart-outline"></ion-icon
+                  ><span><strong> 900+ </strong> styles</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="checkmark-done-outline"
+                  ></ion-icon
+                  ><span>Verified</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon
+                  ><span><strong> 4.5 </strong>rating (407)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container all-recipe">
+          <a class="link" href="select.html">See all arrivals &rarr;</a>
+        </div>
+      </section>
+
+      <section class="sec-testimonials" id="testimonials">
+        <div class="testimonial-cont">
+          <span class="sub-head">Testimonials</span>
+          <h2 class="sec-head">Each day is a page in your fashion story</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="customer-img"
+                src="img/customers/dave.jpg"
+                alt="customer-dave"
+              />
+              <blockquote class="testimonial-txt">
+                I have been delighted with every aspect. Easy to order online
+                and affordable.
+              </blockquote>
+              <p class="customer-name">&mdash; Dave Bryson</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="customer-img"
+                src="img/customers/hannah.jpg"
+                alt="customer-hannah"
+              />
+              <blockquote class="testimonial-txt">
+                I got WebStore for the whole family, and it frees up so much
+                time.
+              </blockquote>
+              <p class="customer-name">&mdash; Hannah Smith</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="customer-img"
+                src="img/customers/steve.jpg"
+                alt="customer-steve"
+              />
+              <blockquote class="testimonial-txt">
+                WebStore is a affordable! I just started working in a company,
+                it help me to get a best look.
+              </blockquote>
+              <p class="customer-name">&mdash; Steve Miller</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="customer-img"
+                src="img/customers/ben.jpg"
+                alt="customer-ben"
+              />
+              <blockquote class="testimonial-txt">
+                It chooses the right look for me every time. It's amazing not to
+                worry about styling anymore!
+              </blockquote>
+              <p class="customer-name">&mdash; Ben Hadley</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/01.png" alt="gallery-1" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/02.png" alt="gallery-2" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/03.png" alt="gallery-3" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/04.png" alt="gallery-4" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/05.png" alt="gallery-5" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/06.png" alt="gallery-6" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/07.png" alt="gallery-7" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/08.png" alt="gallery-8" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img class="gallery-img" src="img/gallery/09.png" alt="gallery-9" />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img
+              class="gallery-img"
+              src="img/gallery/10.png"
+              alt="gallery-10"
+            />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img
+              class="gallery-img"
+              src="img/gallery/11.png"
+              alt="gallery-11"
+            />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+
+          <figure class="gallery-cont">
+            <img
+              class="gallery-img"
+              src="img/gallery/12.png"
+              alt="gallery-12"
+            />
+            <!-- <figcaption> </figcaption> **this is used within figure only for captions.** -->
+          </figure>
+        </div>
+      </section>
+
+      <section class="sec-pricing" id="pricing">
+        <div class="container">
+          <span class="sub-head">Play and win </span>
+          <h2 class="sec-head">
+            You don't have to break the bank to look good
+          </h2>
+        </div>
+
+        <div class="grid center-wheel">
+          <div id="wrapper  ">
+            <div id="wheel">
+              <div id="inner-wheel">
+                <div class="sec"><span class="fa">10% OFF</span></div>
+                <div class="sec"><span class="fa">5% OFF</span></div>
+                <div class="sec"><span class="fa">15% OFF</span></div>
+                <div class="sec"><span class="fa">20% OFF</span></div>
+                <div class="sec"><span class="fa">25% OFF</span></div>
+                <div class="sec"><span class="fa">50% OFF</span></div>
+              </div>
+
+              <div id="spin">
+                <div id="inner-spin"></div>
+              </div>
+
+              <!-- <div id="shine"></div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-detail">
+            Prices include all applicable taxes.
+          </aside>
+        </div>
+
+        <div class="container grid grid-4">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="car-outline"></ion-icon>
+            <p class="feature-head">Free Delivery</p>
+            <p class="feature-txt">
+              Free delivery on all orders over $50. Get your products without
+              having to pay a penny for shipping.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="cash-outline"></ion-icon>
+            <p class="feature-head">Pay on Delivery</p>
+            <p class="feature-txt">
+              Pay on delivery is available, you can pay for your order when it
+              is delivered to your doorstep.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="archive-outline"></ion-icon>
+            <p class="feature-head">Returnable</p>
+            <p class="feature-txt">
+              We offer a 7-day return policy on all products. You can return any
+              product within 7 days of receiving it.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon class="feature-icon" name="add-circle-outline"></ion-icon>
+            <p class="feature-head">Shop anytime</p>
+            <p class="feature-txt">
+              We offer 24/7 customer service, so you can always reach us if you
+              have any questions or concerns.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="enjoying-food"
+            ></div>
+
+            <div class="cta-txt-box">
+              <h2 class="sec-head">
+                Affordable shopping for the whole family !
+              </h2>
+              <p class="cta-txt">
+                We’ve got what you’re looking for, and more. Start shopping
+                today quality products at affordable prices. You can return or
+                exchange anytime. Affordable style for every lifestyle !
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us ?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option :</option>
+                    <option value="frds">Friends and Family</option>
+                    <option value="youtube">YouTube Video</option>
+                    <option value="pods">Podcast</option>
+                    <option value="fb">Facebook Ads</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn-form">Sign up now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid-5">
+        <div class="logo-col">
+          <a class="footer-logo logo" href="#">
+            <h1 class="logo-txt">
+              Web St
+              <img
+                class="logo logo-img"
+                src="img/android-chrome-512x512.png"
+                alt="logo"
+              />re
+            </h1>
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2029</span> by Skyan, Inc. All
+            rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-head">Contact Us</p>
+          <address class="contact">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@webstore.com"
+                >hello@webstore.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-head">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-head">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About WebStore</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Styling partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-head">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Fashion Fit</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <button class="btn-scroll">
+      <ion-icon name="caret-up-circle-outline"></ion-icon>
+    </button>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+    <!-- Minify JS -->
+    <script defer src="js/minify.js"></script>
+  </body>
+</html>
